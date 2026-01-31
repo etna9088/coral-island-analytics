@@ -26,7 +26,7 @@ I couldn't find a clean dataset that matched the latest game update, so I built 
 
 **The Analysis focuses on three key metrics (KPIs):**
 1.  **ROI %:** *(Total Lifetime Revenue - Seed Cost) / Seed Cost*.
-2.  **Profit Per Day (PPD):** Revenue adjusted for growth time and regrowth cycles. This identifies the "Cash Velocity" of a crop.
+2.  **Profit Per Season:** Revenue adjusted for growth time and regrowth cycles. This identifies the "Cash Velocity" of a crop.
 3.  **Break-Even Point:** A calculated measure that dynamically tells the user how many harvests it takes for a 4,000g Tree to become profitable compared to standard crops.
 
 ### 📝 Conclusion
