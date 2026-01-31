@@ -36,9 +36,9 @@ This project reinforced how Data Modeling (DAX) can turn raw lists of prices int
 
 ### 📂 Code & Data
 * **Data Source:** `Crops_Data.csv` (Manually curated & cleaned).
-* **Report File:** `Coral_Island_Report.pbix` (Power BI Desktop file).
+* **Report File:** `Coral_island_ROI.pbix` (Power BI Desktop file).
 
 ### ⚙️ How to Run
-1.  Download the `Coral_Island_Report.pbix` file from this repository.
+1.  Download the `Coral_island_ROI.pbix` file from this repository.
 2.  Open the file in **Microsoft Power BI Desktop**.
 3.  Use the "Season Slicer" on the left to filter the analysis by Spring, Summer, Fall, or Winter.
