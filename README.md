@@ -23,22 +23,3 @@ I couldn't find a clean dataset that matched the latest game update, so I built 
 
 ### 📈 Key Findings & Results
 *(Visuals from the Power BI Report will be added here)*
-
-**The Analysis focuses on three key metrics (KPIs):**
-1.  **ROI %:** *(Total Lifetime Revenue - Seed Cost) / Seed Cost*.
-2.  **Profit Per Season:** Revenue adjusted for growth time and regrowth cycles. This identifies the "Cash Velocity" of a crop.
-3.  **Break-Even Point:** A calculated measure that dynamically tells the user how many harvests it takes for a 4,000g Tree to become profitable compared to standard crops.
-
-### 📝 Conclusion
-Through this analysis, I found that while "Cash Crops" (like Cauliflower) offer a big payout at the end of the month, **High-Frequency Regrowing Crops** (like Sugarcane) actually offer better daily liquidity for early-game players. Furthermore, Fruit Trees require a "Break-Even" period of nearly two seasons, making them poor choices for early game but excellent "savings accounts" for late game.
-
-This project reinforced how Data Modeling (DAX) can turn raw lists of prices into actionable business strategy.
-
-### 📂 Code & Data
-* **Data Source:** `Crops_Data.csv` (Manually curated & cleaned).
-* **Report File:** `Coral_island_ROI.pbix` (Power BI Desktop file).
-
-### ⚙️ How to Run
-1.  Download the `Coral_island_ROI.pbix` file from this repository.
-2.  Open the file in **Microsoft Power BI Desktop**.
-3.  Use the "Season Slicer" on the left to filter the analysis by Spring, Summer, Fall, or Winter.
