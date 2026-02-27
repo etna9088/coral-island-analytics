@@ -9,6 +9,7 @@ In the game economy, players face a classic resource allocation problem with lim
 
 My goal was to move beyond guessing and build a commercial pricing model that projects cumulative profit and identifies the most capital-efficient investments over a 36-month period.
 
+
 ## 💾 About the Dataset & Constraints
 I couldn't find a clean dataset that matched the latest game update, so I built my own custom `Crops_Data.csv` using data from v1.1 game telemetry and community wikis. 
 
@@ -19,10 +20,12 @@ I couldn't find a clean dataset that matched the latest game update, so I built 
   2. **Regrowing Crops:** Inventory that produces multiple yields per season (e.g., Blueberries) and requires annual repurchasing.
   3. **Trees & Seedlings:** Permanent capital assets that have a dormant season but do not die after harvest, representing a one-time sunk cost.
 
+
 ## ⚙️ The Technical Challenge: Context Transition & Double-Counting
 What started as a simple revenue calculation quickly became a complex DAX modeling challenge. Because of seasonal granularity, **Multi-Season Crops** (like Snowdrops or Lychee) appear as distinct rows for every season they are viable. 
 
 A standard row-level profit calculation resulted in double-counting the initial Capital Expenditure (seed cost) for these assets, artificially tanking their long-term profit margins when aggregated in visual dashboards. 
+
 
 ## 🛠️ The Solution: Amortization & Dynamic DAX Variables
 To achieve perfect logic alignment and calculate true cumulative profit, I engineered a series of DAX measures utilizing `VAR` (Variables) and hardcoded arrays (`IN`) to dynamically adjust the math based on the asset class.
