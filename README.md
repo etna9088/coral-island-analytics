@@ -1,4 +1,4 @@
-# 🚜 Coral Island Crop Analysis (Power BI Report)
+# 🚜 Coral Island Crop Analysis
 
 ## 📖 Project Description
 This is my first independent data analytics project. As a fan of the farming simulator video game *Coral Island*, I realized I was making decisions based on "gut feeling" rather than data. I wanted to apply my Power BI skills to a real-world (or game-world) problem: **How do I make the most money with limited resources?**
