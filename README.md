@@ -12,7 +12,7 @@ To solve this, I engineered a custom dataset tracking 91 distinct agricultural a
 * **Capital Efficiency:** Which assets yield the highest return on invested capital (ROI) given a strict spatial footprint?
 * **CapEx Amortization:** When do heavy upfront capital expenditures transition from liabilities into profitable assets?
 
-![Power BI Report Page](Reports/Report_page.png)
+![Power BI Report Page](Report_page.png)
 
 ## Core Features & Functionality
 
